@@ -20,7 +20,7 @@ theta_grid = np.linspace(-90, 90, 4000)
 
 
 def interferometer(B=15.0, lam=0.21, theta=20.0):
-    """Plot the interferometer geometry and its real visibility fringe."""
+    """Interactive interferometer demo."""
     th = np.radians(theta)
 
     fig, (ax_geo, ax_vis) = plt.subplots(
